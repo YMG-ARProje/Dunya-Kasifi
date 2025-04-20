@@ -6,8 +6,8 @@
 
 1. Projeyi klonlayın:
 ```bash
-git clone https://github.com/your-username/DunyaKasifi.git
-cd DunyaKasifi
+git clone https://github.com/YMG-ARProje/Dunya-Kasifi.git
+cd Dunya-Kasifi
 ```
 
 2. Bağımlılıkları yükleyin:
@@ -45,8 +45,10 @@ npx react-native run-android
 - React Native Config
 - AsyncStorage
 
-## Roller ve Sorumluluklar
+## Proje Yönetimi
 
+Proje yönetimi ve görev takibi için Trello board'umuzu kullanıyoruz:
+- [Trello Board](https://trello.com/w/ymgarproje)
 
 ## Ekip Üyeleri
 
