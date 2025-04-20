@@ -1,97 +1,98 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Dünya Kaşifi (World Explorer)
 
-# Getting Started
+Çocuklar için eğlenceli bir dünya keşif uygulaması. AR teknolojisi ile dünya şehirlerini ve kültürlerini keşfedin!
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+## Kurulum
 
-## Step 1: Start Metro
-
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
-
-To start the Metro dev server, run the following command from the root of your React Native project:
-
-```sh
-# Using npm
-npm start
-
-# OR using Yarn
-yarn start
+1. Projeyi klonlayın:
+```bash
+git clone https://github.com/your-username/DunyaKasifi.git
+cd DunyaKasifi
 ```
 
-## Step 2: Build and run your app
-
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
-
-### Android
-
-```sh
-# Using npm
-npm run android
-
-# OR using Yarn
-yarn android
+2. Bağımlılıkları yükleyin:
+```bash
+npm install --legacy-peer-deps
 ```
 
-### iOS
-
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
-
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
-
-```sh
-bundle install
+3. Environment dosyasını oluşturun:
+```bash
+cp .env.example .env
 ```
 
-Then, and every time you update your native dependencies, run:
+4. `.env` dosyasını düzenleyin:
+- `GOOGLE_MAPS_API_KEY`: Google Maps API anahtarınızı ekleyin
 
-```sh
-bundle exec pod install
+5. Android için uygulamayı başlatın:
+```bash
+npx react-native run-android
 ```
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+## Özellikler
 
-```sh
-# Using npm
-npm run ios
+- Dünya haritası üzerinde önemli şehirleri keşfedin
+- AR teknolojisi ile ünlü yapıları deneyimleyin
+- Kültürel görevlerle öğrenmeyi eğlenceli hale getirin
+- Dil kartları ile yeni kelimeler öğrenin
+- Keşif günlüğü tutun
 
-# OR using Yarn
-yarn ios
-```
+## Teknolojiler
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+- React Native
+- React Navigation
+- React Native Maps
+- React Native Vision Camera
+- React Native Config
+- AsyncStorage
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+## Roller ve Sorumluluklar
 
-## Step 3: Modify your app
 
-Now that you have successfully run the app, let's make changes!
+## Ekip Üyeleri
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+### Muhammet Saltuk ÖZDEMİR (215541047)
+- **Rol**: Technical Lead & Takım Lideri
+- **Sorumluluklar**: 
+  - Proje yönetimi
+  - Teknik mimari
+  - Genel koordinasyon
+  - Code review
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+### Mert KÖROĞLU (215541025)
+- **Rol**: AR Developer
+- **Sorumluluklar**:
+  - AR özelliklerinin geliştirilmesi
+  - 3D model entegrasyonları
+  - AR performans optimizasyonu
+  - Kamera ve sensör yönetimi
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+### Ahmet ÜNÜVAR (205541045)
+- **Rol**: Content Manager & Map Developer
+- **Sorumluluklar**:
+  - Harita entegrasyonu
+  - Ülke bilgilerinin yönetimi
+  - Konum bazlı içerikler
+  - Harita performans optimizasyonu
 
-## Congratulations! :tada:
+### Muhammed Enes MEMDUHOĞLU (215541055)
+- **Rol**: UI/UX Developer
+- **Sorumluluklar**:
+  - Sayfa düzenleri
+  - Navigasyon yapısı
+  - Kullanıcı deneyimi optimizasyonu
+  - Sayfa geçişleri ve animasyonlar
 
-You've successfully run and modified your React Native App. :partying_face:
+### Eray FIRAT (215541007)
+- **Rol**: UI/UX Designer
+- **Sorumluluklar**:
+  - Asset tasarımları
+  - Görsel içerik üretimi
+  - UI elementlerinin tasarımı
+  - Kullanıcı arayüzü tasarımı
 
-### Now what?
+## Demo
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
+Uygulama demo videoları:
+- [Demo Video 1](https://youtube.com/shorts/0q37YejNcEM?feature=share)
 
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+## Maked by Hunters
